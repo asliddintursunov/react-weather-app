@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&family=Raleway:wght@100&display=swap');
+body{
+  font-family: 'Raleway', sans-serif, 'Inconsolata', monospace;
+}
+
+/* BASIC STYLES ======================================================================= */
+.app{
+  display: grid;
+  place-content: center;
+}
+.justify-center{
+  justify-content: center;
+}
+.justify-space-between{
+  justify-content: space-between;
+}
+/* ======================================================================= */
+.container{
+  padding: 2rem;
+  border: none;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+  box-shadow: 0.2rem 0.5rem 1rem rgb(100, 100, 100);
+  line-height: 3rem;
+}
+.app{
+  margin-top: 20%;
+}
+.info-container{
+  width: 100%;
+}
+.basic-info{
+  width: 100%;
+}
+.degree{
+  font-size: 2.5rem;
+}
+.sort-max-min{
+  line-height: 3rem;
+}
+.feels-humidity{
+  width: 100%;
+  gap: 1rem;
+}
+.place{
+  gap: 1rem;
+}
+i{
+  font-size: 1.2rem;
+}
+input, button{
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+  border: 1px solid gray;
+  margin: 0.2rem;
+}
+button{
+  cursor: pointer;
+  opacity: 0.8;
+}
